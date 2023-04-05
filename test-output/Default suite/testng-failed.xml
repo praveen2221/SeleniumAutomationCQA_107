@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Popups.ClassListBoxExample">
+      <class name="Popups.AutosuggestionEx_GoogleSearch">
         <methods>
+          <include name="autosuggestionEx_GoogleSearch_Test"/>
           <include name="launch_Browser"/>
-          <include name="classListBox_Test"/>
         </methods>
-      </class> <!-- Popups.ClassListBoxExample -->
+      </class> <!-- Popups.AutosuggestionEx_GoogleSearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

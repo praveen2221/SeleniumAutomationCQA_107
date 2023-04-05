@@ -10,7 +10,8 @@ public class SimpleAlertPopup {
 
 	@Test
 	public void simple_Alert_Popup() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","/Users/praveenanbu/eclipse-workspace/SeleniumAutomationCQA_107/Driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver",
+				"/Users/praveenanbu/eclipse-workspace/SeleniumAutomationCQA_107/Driver/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://demoqa.com/alerts");
 		driver.manage().window().maximize();
@@ -20,10 +21,11 @@ public class SimpleAlertPopup {
 		Alert alert = driver.switchTo().alert();
 		alert.accept();
 	}
-	
+
 	@Test
 	public void conformation_popup() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","/Users/praveenanbu/eclipse-workspace/SeleniumAutomationCQA_107/Driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver",
+				"/Users/praveenanbu/eclipse-workspace/SeleniumAutomationCQA_107/Driver/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://demoqa.com/alerts");
 		driver.manage().window().maximize();
@@ -33,10 +35,11 @@ public class SimpleAlertPopup {
 		Alert alert = driver.switchTo().alert();
 		alert.dismiss();
 	}
-	
+
 	@Test
 	public void prompt_popup() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","/Users/praveenanbu/eclipse-workspace/SeleniumAutomationCQA_107/Driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver",
+				"/Users/praveenanbu/eclipse-workspace/SeleniumAutomationCQA_107/Driver/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.navigate().to("https://demoqa.com/alerts");
 		driver.manage().window().maximize();
